@@ -29,7 +29,7 @@ def solution(new_id):
 
     if len(str(new_id)) < 3 : #7
         s = new_id[-1]
-        for i in range(3) :
+        for _ in range(3) :
             new_id = new_id + s
             if len(str(new_id)) == 3 :
                 break
